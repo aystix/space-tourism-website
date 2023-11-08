@@ -35,7 +35,7 @@
     display: flex;
     justify-content: space-evenly;
    }
-   .active {
+   .actives {
     border: 3px solid white;
     border-radius: 50%;
     padding: 10px;

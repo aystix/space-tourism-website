@@ -8,8 +8,8 @@ var buttons = document.querySelectorAll(".a-b");
 
 buttons.forEach(button => {
     button.addEventListener('click', function() {
-        document.querySelector(".active")?.classList.remove("active");
-        button.classList.add("active");
+        document.querySelector(".actives")?.classList.remove("actives");
+        button.classList.add("actives");
 })
 });
 
