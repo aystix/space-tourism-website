@@ -1,0 +1,44 @@
+.bg-image{
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+}
+
+.homepage{
+    margin-top: 40px;
+}
+.explore-btn{
+    font-size: large;
+    font-weight: 800;
+    border-radius: 50%;
+    height: 40vh;
+    width: 40%;
+    border: none;
+}
+.right-side-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+  }
+  .right-side-nav a:hover {
+    border-bottom: 2px solid white;
+    width: 3px;
+   }
+   .a-b{
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(9, 7, 29);
+    color: white;
+   }
+   .butons {
+    display: flex;
+    justify-content: space-evenly;
+   }
+   .active {
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: white;
+    color: rgb(9, 7, 29);
+   }

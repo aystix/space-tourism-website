@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="custom.css">
+  
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <div class="bg-image" style="background-image: url('./assets/destination/background-destination-desktop.jpg'); ">
+
+                              <!-- Nav header -->
+  <nav class="navbar navbar-expand-md  p-1 " style="background-color: rgb(0, 0, 0);">
+    <div class=" px-2 container-fluid ">
+      <a class="navbar-brand" href="#"><img src="./assets/shared/logo.svg" class="img-fluid p-2"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end"  id="navbarNav">
+        <ul class="nav nav-underline navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="index.html">00 Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="destination.html">01 Destination</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="crew.html">02 Crew</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="technology.html">03 Technology</a>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="container-lg">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-md-5 mt-5 text-center text-md-start">
+             <p class="top-text"><span>01</span> PICK YOUR DESTINATION</p>
+        <br />
+        <br>
+        <img
+          class="img-fluid"
+          src="./assets/destination/image-moon.png"
+          alt="image of moon"
+          >
+        </div>
+        <div class="col-md-5 mt-5 text-center text-md-start">
+          <div class="right-side">
+            <div class="right-side-nav">
+              <a href="#" id="link-1">MOON</a>
+              <a href="#" id="link-2">MARS</a>
+              <a href="#" id="link-3">EUROPA</a>
+              <a href="#" id="link-4">TITAN</a>
+            </div>
+            <h1 class="py-3">MOON</h1>
+            <p id="main-text">
+              See our planet as you've never seen it before. A perfect relaxing trip
+              away to help regain perspective and come back refreshed. While you're
+              there, take in some history by visiting the Luna 2 and Apollo 11
+              landing sites.
+            </p>
+            <hr />
+            <div class="down">
+              <div class="down-left">
+                <p>AVG. DISTANCE:</p>
+                <h3 id="distance">384,400km</h3>
+              </div>
+              <div class="down-right">
+                <p>EST. TRAVEL TIME:</p>
+                <h3 id="time">3 DAYS</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<script src="destination.js" charset="UTF-8"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
